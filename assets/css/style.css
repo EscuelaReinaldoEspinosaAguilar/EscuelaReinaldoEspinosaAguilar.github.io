@@ -395,7 +395,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 98vh;
   background: #37517e;
 }
 
@@ -908,7 +908,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.png") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -1825,13 +1825,9 @@ section {
   color: #fff;
 }
 
-#footer .copyright {
-  float: left;
-}
-
 #footer .credits {
-  float: right;
-  font-size: 13px;
+  float: left;
+  font-size: 20px;
 }
 
 #footer .credits a {
@@ -1844,13 +1840,12 @@ section {
     padding-bottom: 20px;
   }
 
-  #footer .copyright,
   #footer .credits {
     text-align: center;
     float: none;
   }
 
   #footer .credits {
-    padding-top: 4px;
+    padding-top: 2px;
   }
 }
